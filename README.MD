@@ -23,7 +23,7 @@ En este repositorio practicaremos estilar páginas web usando `CSS`.
 
 Crearemos un fork (copia de repositorio) que nos permiten tomar todo el contenido de un repositorio y hacerlo propio.
 
-Para crearlo simplemente sleccionamos la opción `Create a new fork` desde el repositorio.
+Para crearlo simplemente seleccionamos la opción `Create a new fork` desde el repositorio.
 
 ![alt text](./assets/github-fork.png)
 
@@ -37,7 +37,9 @@ Práctica de selectores.
 
 ### Ejercicio 1 - Selector por etiquetas
 
-Abre los archivos [ejercicio1.html](ejercicio1/index.html) y [ejercicio1.css](./ejercicio1/ejercicio1.css) con el siguiente contenido:
+**Objetivo**: Usar selector de etiquetas.
+
+Abre los archivos [ejercicio1.html](./ejercicio01/index.html) y [ejercicio1.css](./ejercicio01/style.css) con el siguiente contenido:
 
 ```html
 <h1>Título</h1>
@@ -51,6 +53,8 @@ Abre los archivos [ejercicio1.html](ejercicio1/index.html) y [ejercicio1.css](./
 
 **Objetivo**: usar clases correctamente
 
+Abre los archivos [ejercicio2.html](./ejercicio02/index.html) y [ejercicio2.css](./ejercicio02/style.css) con el siguiente contenido:
+
 ```html
 <p class="destacado">Importante</p>
 <p>Normal</p>
@@ -63,6 +67,8 @@ Abre los archivos [ejercicio1.html](ejercicio1/index.html) y [ejercicio1.css](./
 
 **Objetivo**: diferenciar id vs clase
 
+Abre los archivos [ejercicio3.html](./ejercicio03/index.html) y [ejercicio3.css](./ejercicio03/style.css) con el siguiente contenido:
+
 ```html
 <h1 id="titulo">Mi página</h1>
 <h1>Otro título</h1>
@@ -71,6 +77,10 @@ Abre los archivos [ejercicio1.html](ejercicio1/index.html) y [ejercicio1.css](./
 > **Consigna**: Cambiar el color del elemento con id `titulo`.
 
 ### Ejercicio 4 - Selector descendente
+
+**Objetivo**: Diferenciar padres de hijos
+
+Abre los archivos [ejercicio4.html](./ejercicio04/index.html) y [ejercicio4.css](./ejercicio04/style.css) con el siguiente contenido:
 
 ```html
 <div>
@@ -82,6 +92,10 @@ Abre los archivos [ejercicio1.html](ejercicio1/index.html) y [ejercicio1.css](./
 > **Consigna**: solo el párrafo (`<p>`) dentro del `<div>` debe ser verde.
 
 ### Ejercicio 5 - Selector de hijo directo
+
+**Objetivo**: Probar selector de hijo directo.
+
+Abre los archivos [ejercicio5.html](./ejercicio05/index.html) y [ejercicio5.css](./ejercicio05/style.css) con el siguiente contenido:
 
 ```html
 <div>
@@ -98,6 +112,8 @@ Abre los archivos [ejercicio1.html](ejercicio1/index.html) y [ejercicio1.css](./
 
 **Objetivo**: agrupar selectores
 
+Abre los archivos [ejercicio6.html](./ejercicio06/index.html) y [ejercicio6.css](./ejercicio06/style.css) con el siguiente contenido:
+
 ```html
 <h1>Título</h1>
 <h2>Subtítulo</h2>
@@ -109,6 +125,8 @@ Abre los archivos [ejercicio1.html](ejercicio1/index.html) y [ejercicio1.css](./
 ### Ejercicio 7 - Selector de clase dentro de otro elemento
 
 **Objetivo**: combinar selectores
+
+Abre los archivos [ejercicio7.html](./ejercicio07/index.html) y [ejercicio7.css](./ejercicio07/style.css) con el siguiente contenido:
 
 ```html
 <div>
@@ -126,6 +144,8 @@ Abre los archivos [ejercicio1.html](ejercicio1/index.html) y [ejercicio1.css](./
 
 **Objetivo**: introducir selectores más avanzados.
 
+Abre los archivos [ejercicio8.html](./ejercicio08/index.html) y [ejercicio8.css](./ejercicio08/style.css) con el siguiente contenido:
+
 ```html
 <input type="text">
 <input type="password">
@@ -138,6 +158,8 @@ Abre los archivos [ejercicio1.html](ejercicio1/index.html) y [ejercicio1.css](./
 
 **Objetivo**: interacción
 
+Abre los archivos [ejercicio9.html](./ejercicio09/index.html) y [ejercicio9.css](./ejercicio09/style.css) con el siguiente contenido:
+
 ```html
 <a href="#">Link 1</a>
 <a href="#">Link 2</a>
@@ -148,6 +170,8 @@ Abre los archivos [ejercicio1.html](ejercicio1/index.html) y [ejercicio1.css](./
 ### Ejercicio 10 - nth-child
 
 **Objetivo**: selectores estructurales
+
+Abre los archivos [ejercicio10.html](./ejercicio10/index.html) y [ejercicio10.css](./ejercicio10/style.css) con el siguiente contenido:
 
 ```html
 <ul>
