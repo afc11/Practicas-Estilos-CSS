@@ -18,6 +18,7 @@ En este repositorio practicaremos estilar páginas web usando `CSS`.
     - [Ejercicio 8 - Selector de atributo](#ejercicio-8---selector-de-atributo)
     - [Ejercicio 9 - Pseudoclases básicas](#ejercicio-9---pseudoclases-básicas)
     - [Ejercicio 10 - nth-child](#ejercicio-10---nth-child)
+    - [Ejercicio extra](#ejercicio-extra)
 
 ## Prerquisitos
 
@@ -183,3 +184,24 @@ Abre los archivos [ejercicio10.html](./ejercicio10/index.html) y [ejercicio10.cs
 ```
 
 > **Consigna**: Cambiar el color de los elementos pares y el primer elemento.
+
+### Ejercicio extra
+
+**Objetivo**: colocar todos los ejercicios en una única página.
+
+Crear el directorio `./ejercicioExtra/index.html` y `./ejercicioExtra/style.css` con el siguiente contenido:
+
+- Por cada ejercicio (10) crear un `<section id="<ejercicio>` y colocar el contenido del `<body>` dentro.
+- Dentro de `style.css` colocar el contenido de cada css agregando antes de cada uno el id (ej: `#ejercicio1 p{}`) para que se aplique solo al section
+
+```html
+<section id="ejercicio1">
+  ...
+</section>
+```
+
+```css
+#ejercicio1 p {
+  color: red;
+}
+```
