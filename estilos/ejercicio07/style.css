@@ -1,3 +1,6 @@
+div > p {
+    color: red;
+}
 /* 
 * Solo el .texto dentro del <div> debe ser rojo.
 */

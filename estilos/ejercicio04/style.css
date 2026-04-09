@@ -1,3 +1,6 @@
+div p {
+    color: blueviolet;
+}
 /* 
 *  Solo el párrafo (<p>) dentro del <div> debe ser verde.
 */

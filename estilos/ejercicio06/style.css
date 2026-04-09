@@ -1,3 +1,6 @@
+ h1, h2 {
+    color: chartreuse;
+ }
 /* 
 * Hacer que <h1> y <h2> tengan el mismo color (por ejemplo violeta).
 */
