@@ -1,0 +1,14 @@
+.grid div {
+  height: 100px;
+  background-color: lightblue;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.grande {
+  grid-column: span 2; /* ocupa 2 columnas */
+}
