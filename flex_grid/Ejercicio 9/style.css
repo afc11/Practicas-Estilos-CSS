@@ -1,0 +1,28 @@
+.layout {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  gap: 1rem;
+}
+
+.layout header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.layout header {
+  background-color: lightblue;
+}
+
+.layout main {
+  background-color: lightyellow;
+}
+
+.layout footer {
+  background-color: lightcoral;
+}
